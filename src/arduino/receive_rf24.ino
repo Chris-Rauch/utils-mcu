@@ -19,6 +19,7 @@
  *   *Note - Power is buggy. If connected to Arduino board (vice alternative
  *   power source) the transmitter needs AT LEAST 10uF capacitor. This is more
  *   so applicable for the transmitter but good to have for RX as well.
+ *
  * Features:
  *   - Configurable SPI speed for communication with the nRF24L01 module.
  *   - Uses a 5-byte pipe address to uniquely identify the communication channel.
