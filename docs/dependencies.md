@@ -42,6 +42,22 @@ This document lists the required tools, libraries, and software for working with
   - The library provides functions for sending and receiving data using NRF24L01+ modules.
   - Example sketches are available in the `Examples` section of the Arduino IDE after installation.
 
+### 2. Boost C++ Libraries
+- **Description**: The Boost project provides free peer-reviewed portable C++ source libraries. The specific library that I am using:
+  1. crc.hpp
+- **Version**: 1.86.0
+- **Repository**: [Official Website](https://www.boost.org/)
+                  [Download Page](https://www.boost.org/users/download/)
+- **Installation Instuctions**
+  1. [Windows](https://www.geeksforgeeks.org/how-to-install-c-boost-libraries-on-windows/)
+
+We emphasize libraries that work well with the C++ Standard Library. Boost
+libraries are intended to be widely useful, and usable across a broad spectrum
+of applications. The Boost license encourages both commercial and non-commercial use
+and does not require attribution for binary use.
+
+The project website is www.boost.org, where you can obtain more information and
+[download](https://www.boost.org/users/download/) the current release.
 ---
 
 ## Additional Notes

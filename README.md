@@ -5,7 +5,7 @@ This repository contains small, reusable code snippets for microcontrollers like
 
 ## Structure
 
-- **utils-mcu/**: Root directory.
+- **utils-mcu/**: Root.
   - **README.md**: Overview of the repository.
   - **.gitignore**: Ignore unnecessary files.
   - **src/**: Source code folder.
@@ -42,6 +42,7 @@ This repository uses the following dependencies:
 ### Libraries
 
 - [RF24](https://nrf24.github.io/RF24/) (for NRF24L01 communication).
+- [boost](https://www.boost.org/users/download/) (for CRC library to help with checksum)
 
 ### Tools
 
